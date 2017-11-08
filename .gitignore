@@ -1,3 +1,31 @@
+# Temp files
+*~
+
+# Secrets
+census_api_key
+osf_token
+
+# Exclude data files
+data/census/*/*
+data/corruption/*
+
+# Exclude results
+results/*/*
+
+# Exclude figures
+fig/*/*
+
+# But keep the directory structure
+!data/census/*/.gitkeep
+!data/census/README*
+!data/corruption/README*
+!results/*/.gitkeep
+!fig/*/.gitkeep
+!fig/*/README*
+
+# Tar files
+*.tar.gz
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -20,7 +48,6 @@ lib64/
 parts/
 sdist/
 var/
-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -43,7 +70,7 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
-*.cover
+*,cover
 .hypothesis/
 
 # Translations
@@ -67,7 +94,7 @@ docs/_build/
 # PyBuilder
 target/
 
-# Jupyter Notebook
+# IPython Notebook
 .ipynb_checkpoints
 
 # pyenv
@@ -76,26 +103,15 @@ target/
 # celery beat schedule file
 celerybeat-schedule
 
-# SageMath parsed files
-*.sage.py
-
 # dotenv
 .env
 
 # virtualenv
-.venv
 venv/
 ENV/
 
 # Spyder project settings
 .spyderproject
-.spyproject
 
 # Rope project settings
 .ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
