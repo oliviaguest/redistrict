@@ -1,0 +1,6 @@
+[submodule "pdist"]
+	path = pdist
+	url = git@github.com:oliviaguest/pdist.git
+[submodule "gerrymandering-site"]
+	path = gerrymandering-site
+	url = git@github.com:oliviaguest/gerrymandering-site.git
