@@ -4,3 +4,6 @@
 [submodule "gerrymandering-site"]
 	path = gerrymandering-site
 	url = git@github.com:oliviaguest/gerrymandering-site.git
+[submodule "weighted_k_means"]
+	path = weighted_k_means
+	url = git@github.com:oliviaguest/weighted_k_means.git
