@@ -7,7 +7,7 @@ osf_token
 
 # Exclude data files
 data/census/*/*
-data/corruption/*
+data/website/*
 
 # Exclude results
 results/*/*
@@ -18,7 +18,7 @@ fig/*/*
 # But keep the directory structure
 !data/census/*/.gitkeep
 !data/census/README*
-!data/corruption/README*
+!data/website/.gitkeep
 !results/*/.gitkeep
 !fig/*/.gitkeep
 !fig/*/README*
