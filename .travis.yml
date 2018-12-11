@@ -5,6 +5,16 @@ python:
 
 sudo: enabled
 
+# This git hack below from:
+# https://github.com/algolia/examples/issues/24#issue-185192022
+# Handle git submodules yourself
+git:
+    submodules: false
+# Use sed to replace the SSH URL with the public URL, then initialize submodules
+before_install:
+    - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+    - git submodule update --init --recursive
+
 install:
   - pip install -r requirements.txt
   - pip install -r pdist/requirements.txt
