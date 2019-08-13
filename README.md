@@ -1,6 +1,6 @@
 # Gerrymandering and Computational Redistricting
 
-For more information, see: Guest, O., Kanayet, F. J., & Love, B. C. (2019). Gerrymandering and Computational Redistricting. *Journal of Computational Social Science*.
+For more information, see: Guest, O., Kanayet, F. J., & Love, B. C. (2019). [Gerrymandering and Computational Redistricting](https://doi.org/10.1007/s42001-019-00053-9). *Journal of Computational Social Science*.
 
 ## Results
 If you are interested in looking at the maps check out the website: http://redistrict.science.
