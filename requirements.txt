@@ -38,7 +38,7 @@ matplotlib == 1.5.1
 # weighted_k_means/example.py: 3
 # weighted_k_means/tests/test.py: 6
 # weighted_k_means/wkmeans.py: 18
-numpy == 1.11.0
+numpy == 1.21.0
 
 # helper_scripts/get_data.py: 3
 osfclient == 0.0.3
