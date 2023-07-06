@@ -65,7 +65,7 @@ scikit_learn == 0.18.1
 
 # pdist/compare.py: 12
 # pdist/tests/test.py: 10
-scipy == 0.17.0
+scipy == 1.10.0
 
 # helper_scripts/check.py: 6
 # helper_scripts/create_geojson.py: 5
